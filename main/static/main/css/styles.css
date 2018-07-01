@@ -1,0 +1,38 @@
+/* common */
+.center-horizontally {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.center-vertically {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* header */
+#header {
+  width: 100%;
+  z-index: 400;
+  background-color: #707070;
+}
+.fa-bars, .fa-times {
+  color: #F25757;
+}
+
+/* content */
+#content {
+  width: 100%;
+  z-index: 100;
+}
+section {
+  margin: 2.5vw;
+}
+.button {
+  color: #fff;
+  border-radius: 2rem;
+}
